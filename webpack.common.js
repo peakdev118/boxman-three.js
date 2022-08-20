@@ -34,5 +34,10 @@ module.exports = {
     },
     performance: {
         hints: false
+    },
+    devServer: {
+        compress: true,
+        port: 9000,
+        host: '0.0.0.0',
     }
 };
